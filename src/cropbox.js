@@ -27,13 +27,14 @@
 
         this.defaults = {
             el: '#crop',
+            cp: '#cropImg',
             cropBgColor: 'rgba(0, 0, 0, .4)',
             imgSrc: '',
             imageBox: '.crop-wrap-content',
             thumbBox: '.crop-wrap-thum',
             spinner: '.crop-wrap-spinner',
             callback: function () {
-                
+
             }
         };
 
