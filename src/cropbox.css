@@ -32,8 +32,14 @@ body {
     font: 16px/1.5 "Microsoft YaHei", Helvetica, STHeiti STXihei, Microsoft JhengHei, Arial;
 }
 
-.crop, .crop-input {
+.crop {
     display: none;
+}
+
+.crop-input {
+    visibility: hidden;
+    width: 0;
+    height: 0;
 }
 
 .crop-mask {

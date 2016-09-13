@@ -75,7 +75,6 @@
                 aI.click();
 
                 self._bind(aI, 'change', function () {
-                    alert('change');
                     self.crop.style.display = 'block';
                     var reader = new FileReader();
                     reader.readAsDataURL(this.files[0]);
